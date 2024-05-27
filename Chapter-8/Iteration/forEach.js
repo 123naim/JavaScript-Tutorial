@@ -5,6 +5,8 @@ console.log(sum)
 
 const arr2 = [3, 5, 2, 5, 7, 9];
 let sum2 = 0;
+
+
 arr2.forEach(function(v){
     sum2 += v;
 })
