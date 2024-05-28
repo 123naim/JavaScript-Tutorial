@@ -7,7 +7,6 @@ for(let i = 0; i< arr.length; i++){
             arr[j] = arr[j + 1];
             arr[j + 1] = undefined;
         }
-        0
     }
     if(typeof arr[i] === 'undefined'){
         count++; 
