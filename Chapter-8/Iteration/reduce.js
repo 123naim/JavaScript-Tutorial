@@ -46,8 +46,9 @@ const average = numArray.reduce(
 ); 
 // we have not provided an initial value
 
+console.log(average); // 20
 
-// console.log(average); // 20
+
 // Please keep in mind that If the initial value is not provided, reduce method will execute its callback function starting at index 1 and skips the first index. But if the initial value is provided, it will start at index 0. If the array is empty and no initial value is provided, TypeError will be thrown.
 
 // And for the last tip, instead of using both map() method and filter() method, you can do the job by only using the reduce() method because this approach traverses the array once and not twice.
