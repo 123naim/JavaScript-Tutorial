@@ -17,3 +17,12 @@ console.log(newArray);
 const oldArray2 = [10, 20, 30, 40, 50];
 const newArray2 = oldArray2.filter(number => number > 35)
 console.log(newArray2)
+
+
+// Keep that in mind that you can also define a function and call it here as well
+
+// There are two essential things about the filter method:
+
+// It creates a new array, so we still have the original array if we log the oldArray above.
+// The function we pass to the filter method actually throws us a True/False, so whether the element is going to be a part of a newArray or not.
+// The filter() method is mainly used when we have the complete data and we just want to show a specific group of the items we want; for example, we have a list of all of the books in a bookstore, and we want to show only the Physics book.
