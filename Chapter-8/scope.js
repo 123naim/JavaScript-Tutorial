@@ -70,3 +70,7 @@ function myFunction() {
 var x = 2;       // Global scope
 let x = 2;       // Global scope
 const x = 2;       // Global scope
+
+
+
+console.log('how to work on time')
